@@ -1,0 +1,23 @@
+[user]
+        name = Kev++
+        email = vimagick@gmail.com
+
+[color]
+        ui = auto
+        diff = auto
+        branch = auto
+        status = auto
+        interactive = auto
+
+[alias]
+        st = status
+        ci = commit
+        br = branch
+        co = checkout
+        df = diff
+        lg = log -p
+        tree = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
+[push]
+        default = matching
+
